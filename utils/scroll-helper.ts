@@ -9,7 +9,6 @@ export const addScrollListener = () => {
 };
 
 export const removeScrollListener = () => {
-  console.log('remove');
   removeEventListener('scroll', () => {});
 };
 

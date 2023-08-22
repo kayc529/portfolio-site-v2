@@ -7,6 +7,8 @@ import Sides from '@/components/Sides';
 import { SideBarProvider } from '@/utils/SideBarContext';
 import SideBar from '@/components/SideBar';
 import ModalShade from '@/components/ModalShade';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -24,6 +26,18 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         <SideBarProvider>
+          <ToastContainer
+            position='top-right'
+            autoClose={1500}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable={false}
+            pauseOnHover={false}
+            theme='dark'
+          />
           <Header />
           {children}
           <Sides />

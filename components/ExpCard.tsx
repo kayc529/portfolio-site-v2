@@ -1,5 +1,3 @@
-'use client';
-
 import { Experience } from '@/data/experience';
 import { BiRightArrow, BiLinkAlt } from 'react-icons/bi';
 import { TbExternalLink } from 'react-icons/tb';
@@ -11,10 +9,6 @@ interface Props {
 const ExpCard = ({ exp }: Props) => {
   const { title, company, duration, desc, companyLink, techUsed, product } =
     exp;
-
-  const goToSite = (site: string) => {
-    window.open(site);
-  };
 
   return (
     <article className='fadeIn exp-card flex rounded-lg' key={exp.company}>

@@ -9,7 +9,15 @@ const Footer = () => {
           <SocialMediaNavbar />
         </div>
         <p className='pt-4 text-sm text-slate text-center font-mono md:pt-0'>
-          Built by Kay Cheung 2023. Design inspired by{' '}
+          Built by{' '}
+          <a
+            href='https://github.com/kayc529/portfolio-site-v2'
+            target='_blank'
+            className='hover:text-green hover:underline'
+          >
+            Kay Cheung
+          </a>{' '}
+          2023. Design inspired by{' '}
           <a
             href='https://github.com/bchiang7/v4'
             target='_blank'

@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <section
       id='hero'
-      className='fadeIn delay-1 md:delay-hero hero content-container h-screen flex'
+      className='fadeIn delay-hero hero content-container h-screen flex'
     >
       <div className='flex flex-col text-center md:text-start'>
         <h5 className='pb-6 text-lg text-green font-mono'>
