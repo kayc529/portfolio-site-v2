@@ -24,6 +24,7 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: var(--color-navy);
+  overflow-x: hidden;
 }
 
 footer {
