@@ -45,7 +45,7 @@ header.hide {
 }
 
 .content-container {
-  @apply w-full px-8 max-w-content-sm md:max-w-content-md md:px-12 lg:max-w-content-lg lg:px-24 xl:px-32 xl:max-w-content-xl;
+  @apply w-full px-4 max-w-content-sm md:max-w-content-md md:px-12 lg:max-w-content-lg lg:px-24 xl:px-32 xl:max-w-content-xl;
 }
 
 .sidebar {
